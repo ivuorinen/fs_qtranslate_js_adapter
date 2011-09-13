@@ -52,4 +52,4 @@ function fs_qtranslate_js_adapter()
   
   echo $content;
 }
->
+?>
