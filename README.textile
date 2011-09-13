@@ -4,7 +4,7 @@ h2. FS qTranslate JS Adapter
 h3. Usage
 
 <pre>
-  include('fs_qtranslate_js_adapter.php')
+  include('fs_qtranslate_js_adapter.php');
 
   if ( defined('QTRANS_INIT') && !has_action('admin_head','fs_qtranslate_js_adapter') ) {
     add_action('admin_head', 'fs_qtranslate_js_adapter');
